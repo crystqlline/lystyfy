@@ -5,7 +5,7 @@ import Panel from "../../templates/Panel"
 {/*<div style={{ height: '100%', width: '100%' }}>*/}
 
 const AUTH_URL = 'https://accounts.spotify.com/authorize';
-const CLIENT_ID = '8d1e423dbdb44bb28b723ac07490f178'; 
+const CLIENT_ID = 'ce817eb205084d69ace124baa8a5fa0c'; 
 const REDIRECT_URI = 'http://localhost:5173/callback'; 
 const SCOPES = 'user-library-read user-read-private playlist-read-private '; 
 

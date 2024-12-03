@@ -51,6 +51,7 @@ const PlaylistDisplay = () => {
   return (
     <div style={{width: "80%" }}>
       <h2>{selectedPlaylist.name} - Songs</h2>
+      
       <div style={{ display: 'flex', flexDirection: 'column', gap: "0px",  flexShrink: "10"}}>
         {songs.map((song) => (
 
