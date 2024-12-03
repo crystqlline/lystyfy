@@ -67,7 +67,7 @@ const Settings = () => {
           <Panel backgroundColor=''>
             <div>Test</div>
           </Panel>
-          <Button onClick={() => {Randomize(songs)}}>
+          <Button onClick={() => {Randomize(songs, sliderValue)}}>
             Sort
           </Button>
 

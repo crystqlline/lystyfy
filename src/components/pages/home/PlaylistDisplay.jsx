@@ -7,10 +7,10 @@ import { usePlaylist } from '../../../contexts/PlaylistContext';
 const PlaylistDisplay = () => {
   const { selectedPlaylist } = usePlaylist(); 
   const [songs, setSongs] = useState([]);
-  let id =0
+  let id = 0; //added semicolon! thank me later.
 
   const updateSongId = ()=>{
-    id  = (id+1);
+    id = (id+1);
     return id
 
   }
