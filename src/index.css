@@ -1,6 +1,6 @@
 :root {
-  font-family: 'circular-std-2', Inter, system-ui, Helvetica, Arial, sans-serif;
-  src: url('circular-std-2.woff');
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   line-height: 1.5;
   
   font-weight: 400;

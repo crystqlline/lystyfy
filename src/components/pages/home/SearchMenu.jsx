@@ -47,7 +47,6 @@ function SearchMenu(){
     return (
         <>
             <div className="search-container">
-              <h1></h1>
               
               <SearchBar data={sampleData} />
               
